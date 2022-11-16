@@ -1,0 +1,86 @@
+* {margin: 0;padding: 0;list-style-type: none;}
+a {text-decoration: none; color: black;}
+body {background-color: rgb(13, 19, 37); font-family: 'Abril Fatface', cursive;}
+
+
+
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 360px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* header section */
+
+.header__logo {
+    font-size: 45px;
+    color: rgb(186, 138, 245);
+}
+
+.header__nav-menu .nav__item a {
+    margin-right: 13px;
+}
+
+.header__nav-menu .nav__item a {
+    color: white;
+    font-size: 20px;
+}
+
+.header__nav-menu .nav__item a:hover {
+    text-decoration-line: overline;
+}
+
+
+/* main section */
+
+main {
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+}
+
+.main__image img {
+    width: 500px;
+}
+
+.main__about_person {
+    margin-left: 30px;
+}
+
+.main__title {
+    color: rgb(0, 174, 255);
+}
+
+.main__desc {
+    color: rgb(187, 218, 14);
+    font-size: 18px;
+}
+
+/* footer section */
+
+footer {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.footer__links {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.link__item a img {
+    width: 100px;
+}
+
+.footer__title {
+    color: white;
+}
+
+

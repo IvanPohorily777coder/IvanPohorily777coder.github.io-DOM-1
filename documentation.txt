@@ -1,0 +1,6 @@
+Использовать только: html, css(чистый), js(vanila)
+
+a) header: nav-panel, text-logo +
+b) main: title, image, text + 
+c) footer: end-title, links on github, LinkedIn +
+d) change themes by buttons +
