@@ -9,7 +9,7 @@ let headerLogo = document.getElementById('header__logo'),
     bodyColor = document.body;
 
 
-//change theme on light
+//change btn theme on light
     lightButton.onclick = function() {
         bodyColor.style = "background-color: white; transition: 1s"; 
         headerLogo.style = "color: black; transition: 2s";
@@ -20,7 +20,7 @@ let headerLogo = document.getElementById('header__logo'),
         mainDesc.style = "color: rgb(0, 0, 0); transition: 2s";
         footerTitle.style = "color: rgb(0, 0, 0); transition: 2s";
     }
-//change theme on temperate
+//change btn theme on temperate
     temperatetButton.onclick = function() {
         bodyColor.style = "background-color: rgb(21,76,121); transition: 1s"; 
         headerLogo.style = "color: white; transition: 2s";
@@ -31,7 +31,7 @@ let headerLogo = document.getElementById('header__logo'),
         mainDesc.style = "color: rgb(226,135,67); transition: 2s";
         footerTitle.style = "color: rgb(226,135,67); transition: 2s";
     }
-//change theme on dark
+//change btn theme on dark
     darkButton.onclick = function() {
         document.location.reload();
     }
